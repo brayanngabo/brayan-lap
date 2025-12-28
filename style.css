@@ -1,0 +1,93 @@
+body {
+
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    color: rgb(3, 16, 16);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+font-size: 38px;
+background-image:url(photo_2025-05-13_20-46-46.jpg);
+}
+
+ header  {
+  color: rgb(223, 243, 233);
+  margin-top: 100px;
+
+
+}
+p{
+    font-size: 180px;
+    color: beige;
+
+}
+
+button  {
+margin-top: 20px;
+padding: 12px;
+background-color: green;
+color: white;
+border: none;
+border-radius: 6px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3 ease;
+}
+button:hover {
+    background-color: darkgreen;
+}
+
+.other {
+    color: black;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+.uniform-video {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.image-container {
+    display: inline-block; 
+}
+
+.image-container img {
+    display: block;
+    width: 300px; 
+    height: 300px;
+    object-fit: cover;
+}
+
+.prix {
+    display: block; 
+    text-align: center; 
+    font-size: 1.2em; 
+    color: #e67e22;
+    font-weight: bold; 
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255);
+}
+
+.article {
+    margin: 20px auto;
+    text-align: center; /* Centre tout le contenu */
+    object-fit: cover;
+    display: inline-block;
+}
+
+.panier {
+    cursor: pointer;
+    text-decoration: none;
+}

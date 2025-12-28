@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(IMG-20250507-WA0111.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+
+}
+
+section{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    width: 420px;
+    border-radius: 20px;
+}
+ section h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+ }
+ .input-box{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+ }
+ .input-box input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding-right: 40px;
+ }
+ .input-box input::placeholder{
+     color: #fff; 
+ }
+ .input-box i{
+    position: absolute;
+    transform: translateY(-50%);
+    right: 20px;
+    top: 50%;
+    color: #fff;
+ }
+.remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+ .remember a , .register{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+ }
+ .remember a:hover, .register a{
+    text-decoration: underline;
+ }
+ .login button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.5s;
+ }
+ .login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+ }
+ .register{
+    text-align: center;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 14px;
+ }
